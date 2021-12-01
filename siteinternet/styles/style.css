@@ -1,0 +1,50 @@
+html {
+    font-size: 18px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
+    font-family: 'Open Sans', sans-serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
+    background-color: pink;}
+  
+body {width: 600px; /* modifie la largeur */
+      margin: 0 auto; /*la première valeur est utilisée pour le haut et le bas de l'élément (dans ce cas : 0) et la seconde valeur est utilisée pour les côtés gauche et droit (la valeur auto qu'on utilise ici est une valeur spéciale qui divise l'espace horizontal disponible en parts égales entre la gauche et la droite. */
+      background-color: #FF9500;
+      padding: 0 20px 20px 20px;  /*ici on a quatre valeurs pour le padding afin de créer un peu d'espace autour du contenu. On n'a donc aucun espace pour le padding en haut du corps de la page, on a 20 pixels à gauche, en bas et à droite. Dans l'ordre, les valeurs correspondent au haut, à la droite, au bas et à la gauche. */
+      border: 5px solid black;  /*cette déclaration permet d'utiliser une bordure pleine, large de 5 pixels pour entourer tout le corps de la page. */
+    }      
+
+
+    h1{
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center;
+    color: red;     /*Coloration du/des titre(s)*/
+   
+}
+p,li{
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    color: gold;  /*"li" permet de coloré toute la liste*/
+
+}
+#PH1{
+    color: red;  /*Utilisation de "ID" permet de créer un ID unique*/
+}
+.PH2{
+    color: blue;   /*Utilisation de "class" permet de choisir spécifiquement*/
+}
+
+a:hover{
+    color: greenyellow;  /*Permet de modifier la couleur d'un lien lorsqu'on passe dessus avec la souris*/
+}
+
+img {
+    display: block;  /* On utilise display pour que l'image se comporte comme un élément de bloc */
+    margin: 0 auto;
+    width: 450px;
+	height: 250px;
+  }
+  
+
+
+
